@@ -1,6 +1,10 @@
+
 .section-header {
   font-weight: bold;
-  padding-top: 0em;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 a {
@@ -8,13 +12,23 @@ a {
     color: inherit;
 }
 
-h1 {
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
+
+h1 {
     font-size: 4em;
 }
 
 .screen-footer {
   height: 3em;
+}
+
+.co-op-details {
+  float: right;
+  color: #777;
 }
 
 @media print {
